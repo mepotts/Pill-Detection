@@ -30,3 +30,5 @@ Files to help with pill detection. For more detailed instructions of training go
 ## Testing
 
 1. Use the ```image_processing/tf_model/detect_and_crop.py``` file to crop images based on detection boxes.
+
+2. Use the cropped images with the [Siamese Network](https://github.com/mepotts/Pill-Siamese-Network/blob/master/siamese-network-pill-detect.ipynb).
