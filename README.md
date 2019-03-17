@@ -1,7 +1,7 @@
 # Pill Detection Training
 files to help with pill detection
 
-1. [Install TensorFlow] (https://www.tensorflow.org/install/).
+1. [Install TensorFlow](https://www.tensorflow.org/install/)
 
 2. Download the TensorFlow `models repository <https://github.com/tensorflow/models>`__.
 
