@@ -1,5 +1,5 @@
 # Pill Detection Training
-files to help with pill detection
+Files to help with pill detection. For more detailed instructions of training go [here](https://gist.github.com/douglasrizzo/c70e186678f126f1b9005ca83d8bd2ce) which is a summary of [this tutorial](https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9).
 
 1. [Install TensorFlow](https://www.tensorflow.org/install/)
 
@@ -21,3 +21,12 @@ files to help with pill detection
 
 2. Select a model to train [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
       
+3. Provide a ```config``` file for the training pipeline. The one used is here ```image_processing/final_model/pipeline.config```
+
+4. Train the model [locally](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_locally.md) or using [the cloud](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/running_on_cloud.md).
+
+5. Use [this to export]() the model and the resulting ```.pb``` file for the object detector.
+
+## Testing
+
+1. Use the ```image_processing/tf_model/detect_and_crop.py``` file to crop images based on detection boxes.
