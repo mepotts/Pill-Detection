@@ -3,7 +3,7 @@ Files to help with pill detection. For more detailed instructions of training go
 
 1. [Install TensorFlow](https://www.tensorflow.org/install/)
 
-2. Download the TensorFlow [models repository](https://github.com/tensorflow/models).
+2. Download / ```git clone``` the TensorFlow [models repository](https://github.com/tensorflow/models).
 
 ## Create the dataset
 
