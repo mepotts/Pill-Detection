@@ -7,6 +7,8 @@ Files to help with pill detection. For more detailed instructions of training go
 
 3. Download the current trained pill detection tensorflow graph .pb file [here](https://drive.google.com/file/d/1oyGktaQAoORLmCiX712Uy3RukjTI8_ws/view?usp=sharing)
 
+4. Video demonstration of pill detection [here](https://github.com/mepotts/Pill-Detection/blob/master/pill-detect-demo.mp4).
+
 ## Create the dataset
 
 1. Hand label pictures with [LabelImg](https://github.com/tzutalin/labelImg) and export images in the PASCAL VOC format which gives an XML file. 
