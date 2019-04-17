@@ -5,6 +5,8 @@ Files to help with pill detection. For more detailed instructions of training go
 
 2. Download / ```git clone``` the TensorFlow [models repository](https://github.com/tensorflow/models).
 
+3. Download the current trained tensorflow graph [here](https://drive.google.com/file/d/1oyGktaQAoORLmCiX712Uy3RukjTI8_ws/view?usp=sharing)
+
 ## Create the dataset
 
 1. Hand label pictures with [LabelImg](https://github.com/tzutalin/labelImg) and export images in the PASCAL VOC format which gives an XML file. 
