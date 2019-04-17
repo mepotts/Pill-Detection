@@ -1,4 +1,9 @@
-# Pill Detection Training
+# Pill Detection 
+
+## Demo
+* Video demonstration of pill detection [here](https://github.com/mepotts/Pill-Detection/blob/master/pill-detect-demo.mp4).
+
+## Training
 Files to help with pill detection. For more detailed instructions of training go [here](https://gist.github.com/douglasrizzo/c70e186678f126f1b9005ca83d8bd2ce) which is a summary of [this tutorial](https://towardsdatascience.com/how-to-train-your-own-object-detector-with-tensorflows-object-detector-api-bec72ecfe1d9).
 
 1. [Install TensorFlow](https://www.tensorflow.org/install/)
@@ -7,7 +12,7 @@ Files to help with pill detection. For more detailed instructions of training go
 
 3. Download the current trained pill detection tensorflow graph .pb file [here](https://drive.google.com/file/d/1oyGktaQAoORLmCiX712Uy3RukjTI8_ws/view?usp=sharing)
 
-4. Video demonstration of pill detection [here](https://github.com/mepotts/Pill-Detection/blob/master/pill-detect-demo.mp4).
+
 
 ## Create the dataset
 
